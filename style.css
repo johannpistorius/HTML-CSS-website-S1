@@ -1,0 +1,23 @@
+#global
+{
+	border:3px #FFF ridge;
+}
+
+nav table
+{
+	width:100%;
+	background-color:#CBA;
+	border-collapse:collapse;
+}
+
+nav table th
+{
+	border: 1px solid;
+}
+
+#TODO_List
+{
+	margin:5%;
+	border:3px #33F solid;
+	background-color:#DDF;
+}
