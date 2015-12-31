@@ -1,21 +1,51 @@
 #global
 {
-	border:3px #FFF ridge;
+	/*border:3px #111 solid;*/
+	margin:-10px;
+}
+
+nav
+{
+	width:100%;
 }
 
 nav table
 {
 	width:100%;
-	background-color:#CBA;
 	border-collapse:collapse;
+}
+
+#pageVisite
+{
+	background-color:#D00;
 }
 
 nav table th
 {
-	border: 1px solid;
+	height:50px;
+	background-color:#F44
 }
 
-#TODO_List
+#logo
+{
+	width:20%;
+	background-color:#F44
+}
+
+nav table th a
+{
+	text-decoration:none;
+	color:white;
+}
+
+nav table th:hover
+{
+	background-color:#D00;
+}
+
+
+
+#TODOList
 {
 	margin:5%;
 	border:3px #33F solid;
