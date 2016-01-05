@@ -23,7 +23,8 @@ nav table
 nav table th
 {
 	height:50px;
-	background-color:#F44
+	background-color:#F44;
+	width:20%;
 }
 
 #logo
