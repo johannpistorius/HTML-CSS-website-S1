@@ -47,7 +47,46 @@ nav table th:hover
 	background-color:#D00;
 }
 
+.Jour
+{
+	text-align:center;
+}
+.title
+{
+	color:white;
+	border:2px black solid;
+	font-size:16pt;
+}
+#global > table td
+{
+	border:2px black solid;
+	width:200px;
+}
+#global > table
+{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+#global > table th
+{
+	background:#F44;
+}
 
+#global form
+{
+	display:inline-block;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#global button
+{
+	color: white;
+	background:#F44;
+}
 
 #TODOList
 {
