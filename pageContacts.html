@@ -7,16 +7,40 @@
 	</HEAD>
 	
 	<BODY>
-		<div id="global">
+
 			<NAV>
 				<table>
-					<tr><th id="logo"><img src="logoAssoSports.png" alt="Logo"/></th><th><a href="pagePresentation.html">Présentation</a></th><th><a href="pagePrestations.html">Prestations</a></th><th id="pageVisite"><a href="pageContacts.html">Contacts</a></th><th><a href="pageInscription.html">Inscrivez-vous</a></th></tr>
+					<tr>
+						<th id="logo"><img src="logoAssoSports.png" alt="Logo"/></th>
+						<th><a href="pagePresentation.html">Présentation</a></th>
+						<th><a href="pagePrestations.html">Prestations</a></th>
+						<th id="pageVisite"><a href="pageContacts.html">Contacts</a></th>
+						<th><a href="pageInscription.html">Inscrivez-vous</a></th>
+					</tr>
 				</table>
 			</NAV>
-
+			<section id="feuille">
+				<p>
+					Alexis Perrot : alexis.perrot@etu.univ-lyon1.fr<br>
+					Johann Pistorius : johann.pistorius@etu.univ-lyon1.fr
+				</p>
+				<div id="map">
+					<script src="https://maps.googleapis.com/maps/api/js"></script>
+					<script>
+					  function initialize() {
+						var mapCanvas = document.getElementById('map');
+						var mapOptions = {
+						  center: new google.maps.LatLng(45.786196, 4.883534),
+						  zoom: 16,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+						}
+						var map = new google.maps.Map(mapCanvas, mapOptions)
+					  }
+					  google.maps.event.addDomListener(window, 'load', initialize);
+					</script>
+			</section>
 			<FOOTER>
 			
 			</FOOTER>
-		</div>
 	</BODY>
 </HTML>

@@ -1,38 +1,41 @@
-#global
-{
-	/*border:3px #111 solid;*/
-	margin:-8px
-}
 
+/*Section pour toutes les pages*/
+
+body
+{
+	font-family: Verdana;
+	margin:0;
+	width:100%;
+	background-color:#DDD;
+}
 nav
 {
+	position:fixed;
+	height:50px;
 	width:100%;
+	top:0;
 }
-
 nav table
 {
+	top:0;
+	height:100%;
 	width:100%;
 	border-collapse:collapse;
 }
-
 #pageVisite
 {
 	background-color:#D00;
 }
-
 nav table th
 {
-	height:50px;
+	/*height:50px;*/
 	background-color:#F44;
 	width:20%;
 }
-
 #logo
 {
-	width:20%;
 	background-color:#F44
 }
-
 nav table th a
 {
 	text-decoration:none;
@@ -41,17 +44,102 @@ nav table th a
 	height:100%;
 	line-height:50px;
 }
-
 nav table th:hover
 {
 	background-color:#D00;
 }
-
-
-
-#TODOList
+#feuille
 {
-	margin:5%;
-	border:3px #33F solid;
-	background-color:#DDF;
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom:50px;
+	margin-top:52px;
+	padding:20px;
+	background-color:#FFF;
+	height:100%
+	box-shadow: 0px 10px 25px #888888;
+}
+footer
+{
+	position:fixed;
+	height:50px;
+	width:100%;
+	bottom:0;
+	background-color:#888;
+}
+footer table
+{
+	bottom:0;
+	height:100%;
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+
+
+/*Section pour la page Presentation*/
+
+#image1
+{
+	width:100%;
+}
+
+
+
+/*Section pour la page Prestations*/
+
+.Jour
+{
+	text-align:center;
+}
+.title
+{
+	color:white;
+	border:2px black solid;
+	font-size:16pt;
+}
+#tabPrestations td
+{
+	border:2px black solid;
+	width:200px;
+}
+#tabPrestations
+{
+	border-collapse:collapse;
+	margin-left:auto;
+	margin-right:auto;
+}
+#tabPrestations th
+{
+	background:#F44;
+}
+
+
+
+/*Section pour la page Contacts*/
+
+#map 
+{
+    width: 500px;
+	height: 400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/*Section pour la page Inscription*/
+
+form
+{
+	width:80%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+button
+{
+	color: white;
+	background:#F44;
 }
